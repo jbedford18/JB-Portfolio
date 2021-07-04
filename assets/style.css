@@ -118,3 +118,64 @@ section {
     float: right;
     text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   }
+  /*about me styles end*/
+
+  /*project/apps start*/
+  .projects {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .app {
+    margin: 10px;
+    flex: 1;
+    background: var(--secondary-color);
+    color: var(--primary-color);
+  }
+  
+  .app img {
+    width: 100%;
+    border: 3px solid #555;
+    
+  }
+  
+  .projects {
+    padding: 25px;
+    line-height: 1.2;
+  }
+  
+  .projects h3 {
+    font-size: 25px;
+  }
+  
+  .projects p {
+    font-size: 15px;
+    font-weight: lighter;
+  }
+
+  .app img:hover{
+    opacity:1;
+    transition: 1s ease;
+ }
+    
+    .app img{
+    opacity:0.5;
+    transition: 1s ease;
+ }
+
+
+
+
+  /*not sure*/
+
+.flex-row {
+  display: flex;
+}
+
+.app {
+    flex: 0 30%;
+  }
+  
